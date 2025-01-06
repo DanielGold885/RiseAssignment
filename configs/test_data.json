@@ -1,0 +1,9 @@
+{
+    "new_product": {
+        "title": "Test Product",
+        "price": 10.99,
+        "description": "A product for testing",
+        "category": "testing",
+        "image": "https://via.placeholder.com/150"
+    }
+}

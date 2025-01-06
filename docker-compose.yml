@@ -1,0 +1,10 @@
+version: "3.9"
+
+services:
+  test-runner:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./reports:/app/reports  # Mount reports directory for Allure results
+    command: pytest --alluredir=reports/allure-results
