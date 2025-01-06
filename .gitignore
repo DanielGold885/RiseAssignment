@@ -1,0 +1,22 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# pytest cache and reports
+.pytest_cache/
+allure-results/
+reports/
+
+# Virtual environment
+venv/
+env/
+
+# IDE-specific files (e.g., PyCharm, VSCode)
+.idea/
+*.iml
+.vscode/
+*.code-workspace
+
+# macOS-specific files
+.DS_Store
